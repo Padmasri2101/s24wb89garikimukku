@@ -1,1 +1,0 @@
-# s24wb89garikimukku

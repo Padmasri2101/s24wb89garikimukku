@@ -13,8 +13,11 @@
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
   },
-  "description": "",
   "main": "app.js",
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "wb"
+  ],
+  "author": "S572189",
+  "license": "ISC",
+  "description": ""
 }
