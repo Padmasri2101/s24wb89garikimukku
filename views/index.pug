@@ -4,3 +4,15 @@ block content
   h1= title
   p Welcome to GitHub
   button(type="button", class="btn btn-secondary") I am a button
+  br
+  div#double
+  
+   a(href='/toys') View Search Results
+  script.
+    let value = 0;
+    let power = 1;
+    function double() {
+      value += 1;
+      power *= 2;
+      document.getElementById('double').innerText = Two to the power ${value} is ${power}.;
+    }
