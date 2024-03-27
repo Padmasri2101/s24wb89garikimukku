@@ -7,13 +7,13 @@ block content
     div.row
       -
         let results = [
-          { toys_type: 'Piano', toys_size: 'Large', toys_price: 100 },
-          { toys_type: 'Guitar', toys_size: 'Medium', toys_price: 800 },
-          { toys_type: 'Violin', toys_size: 'Small', toys_price: 1300 }
+          { toys_type: 'dog', toys_size: 'Large', toys_price: 100 },
+          { toys_type: 'teddy bear', toys_size: 'Medium', toys_price: 800 },
+          { toys_type: 'hello kitty', toys_size: 'Small', toys_price: 1300 }
         ]
         
       each toys,index in results
-        .col-sm-2(onclick=buy(${index}))
+        .col-sm-2(onclick=`buy(${index})`)
           p toys Type: #{toys.toys_type}
           p Size: #{toys.toys_size}
           p Price: $#{toys.toys_price.toFixed(2)}
@@ -22,5 +22,5 @@ block content
 
   script.
     function buy(index) {
-        alert(You purchased item ${index});
+        alert(`You purchased item ${index}`);
     }

@@ -1,5 +1,6 @@
 I'm working with GitHub
-n
+https://s24wb89garikimukku.onrender.com
+
 # Class: toys
 
 toys
@@ -9,3 +10,5 @@ toys
 - `toys_type` (string): 
 - `toys_size` (string): 
 - `toys_price` (number):
+[toys link] http://localhost:3000/toys<br>
+[pick link]http://localhost:3000/pick<br>

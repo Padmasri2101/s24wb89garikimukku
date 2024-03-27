@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   p Welcome to GitHub
-  button(type="button", class="btn btn-secondary") I am a button
+  button(type="button", class="btn btn-secondary" onclick="double()") I am a button
   br
   div#double
   
@@ -14,5 +14,4 @@ block content
     function double() {
       value += 1;
       power *= 2;
-      document.getElementById('double').innerText = Two to the power ${value} is ${power}.;
-    }
+      document.getElementById('double').innerText = `Two to the power ${value} is ${power}.`;}
